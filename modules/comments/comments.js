@@ -48,7 +48,11 @@ angular.module('comments', [])
                     $ctrl.comment = "";
                     localStorage.setItem("items", JSON.stringify($ctrl.items));
                 }
+            };
+            $ctrl.setActive = function(menuItem) {
+                $ctrl.activeMenu = menuItem
             }
+
         }],
     templateUrl: "./modules/comments/comments.html"
 });

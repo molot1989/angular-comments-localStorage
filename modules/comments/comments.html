@@ -11,7 +11,8 @@
             <button ng-click="$ctrl.addItem()">Add new</button>
         </div>
         <div class="list" ng-repeat="item in $ctrl.items track by $index">
-            <div class="item-name" ng-click="$ctrl.showComments(item.id)">{{item.name}}</div>
+            <div ng-class="{active : $ctrl.activeMenu == item.id}"></div>
+            <div class="item-name"  ng-click="$ctrl.showComments(item.id);$ctrl.setActive(item.id)">{{item.name}}</div>
             <div class="count">{{item.comments.length}}</div>
             <button ng-click="$ctrl.deleteItem(item.id)">Delete</button>
             <div class="line"></div>

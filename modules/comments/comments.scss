@@ -69,6 +69,14 @@ body {
         font-size: 24px;
       }
     }
+    .active {
+      float: left;
+      background-color: #fc335d;
+      margin-left: -34px;
+      margin-top: -15px;
+      width: 10px;
+      height: 62px;
+    }
     .list {
       margin: 30px;
       height: 40px;
