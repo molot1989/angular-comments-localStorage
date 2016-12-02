@@ -1,0 +1,139 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0; }
+
+.nav-panel {
+  float: left;
+  background-color: #2b2f3d;
+  height: 1000px;
+  width: 346px; }
+  .nav-panel .main {
+    color: #565a68;
+    margin-left: 34px;
+    margin-top: 20px;
+    font-size: 44px; }
+  .nav-panel .overview {
+    background-color: #fc3d55;
+    color: #ffffff;
+    padding-left: 33px;
+    margin-top: 86px;
+    padding-top: 18px;
+    font-size: 24px;
+    height: 54px; }
+
+.wrapper {
+  background-color: #f9f9f9;
+  height: 1000px; }
+  .wrapper .items {
+    border-radius: 5px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 42px;
+    background-color: #ffffff;
+    height: 672px;
+    width: 616px;
+    overflow-y: auto; }
+    .wrapper .items .name {
+      color: #565a73;
+      padding-left: 34px;
+      padding-top: 13px;
+      font-size: 43px; }
+    .wrapper .items .add-new {
+      padding-left: 40px;
+      padding-top: 20px; }
+      .wrapper .items .add-new input {
+        border: 1px solid #d7d7d7;
+        border-radius: 5px;
+        width: 370px;
+        height: 46px;
+        background: #ffffff;
+        outline: none;
+        font-size: 22px;
+        text-indent: 11px; }
+      .wrapper .items .add-new button {
+        background-color: #35cbbf;
+        border: 1px solid #35cbbf;
+        height: 50px;
+        width: 170px;
+        border-radius: 5px;
+        color: #ffffff;
+        margin-left: 10px;
+        font-size: 24px; }
+    .wrapper .items .list {
+      margin: 30px;
+      height: 40px; }
+      .wrapper .items .list .item-name {
+        float: left;
+        padding-left: 11px;
+        font-size: 21px;
+        font-weight: bold;
+        max-width: 329px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        cursor: pointer; }
+      .wrapper .items .list .count {
+        float: left;
+        border-radius: 10px;
+        background-color: #35cbbf;
+        margin-left: 20px;
+        padding-left: 7px;
+        padding-right: 7px;
+        color: #ffffff; }
+      .wrapper .items .list button {
+        background-color: #ffffff;
+        border: 1px solid #fd708c;
+        float: right;
+        margin-top: -5px;
+        margin-right: -5px;
+        border-radius: 5px;
+        width: 125px;
+        height: 45px; }
+      .wrapper .items .list .line {
+        float: left;
+        color: gray;
+        width: 543px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #f3f3f3; }
+  .wrapper .comments {
+    border-radius: 5px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 42px;
+    background-color: #ffffff;
+    height: 797px;
+    width: 570px; }
+    .wrapper .comments .comments-name {
+      color: #565a73;
+      padding-left: 25px;
+      padding-top: 12px;
+      font-size: 44px; }
+    .wrapper .comments .comments-box {
+      height: 600px;
+      overflow-y: auto; }
+      .wrapper .comments .comments-box .comments-content {
+        float: left;
+        margin-left: 25px;
+        margin-top: 31px; }
+      .wrapper .comments .comments-box .comments-image {
+        float: left;
+        width: 65px;
+        height: 65px;
+        background-color: #0086B3; }
+      .wrapper .comments .comments-box .comments-text {
+        float: left;
+        margin-left: 20px;
+        width: 450px; }
+    .wrapper .comments .comments-input {
+      margin-left: 25px;
+      margin-top: 18px; }
+      .wrapper .comments .comments-input .image {
+        float: left;
+        width: 65px;
+        height: 65px;
+        background-color: #0086B3; }
+      .wrapper .comments .comments-input textarea {
+        border: 1px solid #d7d7d7;
+        margin-left: 20px;
+        width: 425px;
+        height: 80px; }
